@@ -33,11 +33,3 @@ public class Layer {
         return type + " " + grade + " " + fluteProfile;
     }
 }
-
-enum LayerType {
-    LINER, FLUTE, BACKLINER
-}
-
-enum FluteProfile {
-    B, C
-}
