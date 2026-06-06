@@ -2,6 +2,8 @@ package me.mxdot.cti.model.value;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,8 +19,9 @@ public class MaterialSpec {
     @Column(nullable = false)
     private int gsm;
 
+    @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private int gradeCode;
+    private GradeType gradeCode;
 
     @Override
     public String toString() {

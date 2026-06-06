@@ -46,14 +46,14 @@ Example request:
   "boardSpec": {
     "materialSpec": {
       "gsm": 125,
-      "gradeCode": 1
+      "gradeCode": "KRAFT"
     },
     "layers": [
       {
         "type": "LINER",
         "grade": {
           "gsm": 125,
-          "gradeCode": 1
+          "gradeCode": "KRAFT"
         },
         "fluteProfile": null
       },
@@ -61,7 +61,7 @@ Example request:
         "type": "FLUTE",
         "grade": {
           "gsm": 110,
-          "gradeCode": 2
+          "gradeCode": "TEST"
         },
         "fluteProfile": "B"
       },
@@ -69,7 +69,7 @@ Example request:
         "type": "BACKLINER",
         "grade": {
           "gsm": 125,
-          "gradeCode": 1
+          "gradeCode": "KRAFT"
         },
         "fluteProfile": null
       }

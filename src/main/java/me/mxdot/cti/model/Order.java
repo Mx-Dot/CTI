@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import me.mxdot.cti.model.value.BoardSpec;
-import org.antlr.v4.runtime.misc.NotNull;
 
 @Entity
 @Getter
